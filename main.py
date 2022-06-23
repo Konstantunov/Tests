@@ -25,7 +25,7 @@ time=strftime("%H:%M:%S")
 
 @dp.message_handler(commands="start")
 async def process_start_command(message: types.Message):
-    await message.answer(f"{message.from_user.first_name} Приветствую я тестовый бот для отчанивания знаний")
+    await message.answer(f"{message.from_user.first_name} Приветствую я тестовый бот для ")
     await message.answer(f"Настоящие Время:{time}")
 
 
